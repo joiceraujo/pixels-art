@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(255,240,245);
+}
+
+#title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color {
+    border: 1px solid black;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.color:hover {
+    cursor: pointer;
+  }
+
+button {
+    margin-left: 5px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+  }
+
+#black {
+    background-color: black;
+    border: 1px solid black;
+}
+
+#brown {
+    background-color: brown;
+    border: 1px solid black;
+}
+
+#red {
+    background-color: red;
+    border: 1px solid black;
+}
+
+#salmon {
+    background-color: salmon;
+    border: 1px solid black;
+}
+
+.line {
+    height: 40px;
+}
+
+#pixel-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#clear-board {
+    display: inline-block;
+    text-align: center;
+}
+
+.pixel {
+    border: solid 1px black;
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: -1px;
+    margin-bottom: -5px;
+    background-color: white;
+}
+
+#board-size{
+    display: inline-block;
+    margin-left: 300px;
+}
+
+
+#color-palette {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+  .board-config {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  input {
+    padding: 10px;
+    width: 7%;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+  }
+  
+
+#footer {
+    background-color: rgb(250, 128, 114);
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
