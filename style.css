@@ -1,5 +1,9 @@
-body {
-    background-color: rgb(255,240,245);
+body { 
+    background-image: url(22.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 #title {
